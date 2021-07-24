@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>empty</class>
+ <widget class="QMainWindow" name="empty">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>пропуск изображения</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="2" alignment="Qt::AlignRight|Qt::AlignTop">
+       <widget class="QGroupBox" name="groupBox">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>2. Другие возможные
+ неисправности</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="paper">
+           <property name="text">
+            <string>чаще всего
+используемый
+ тип бумаги в принтере</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="katrig">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>переустановка
+ катриджа</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>1. найдите вашу проблему, посмотрите есть ли изображение, нажав на на строку, 
+перейдите к пункту - другие возможные неисправности</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="empty_2">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item alignment="Qt::AlignTop">
+          <widget class="QGroupBox" name="verticalGroupBox">
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>образец изображения</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lpic_2">
+              <property name="text">
+               <string>здесь будет ваше
+ изображение, если оно
+ есть в таблице слева</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>951</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="nazad"/>
+   <addaction name="main"/>
+  </widget>
+  <action name="main">
+   <property name="icon">
+    <iconset>
+     <normaloff>icon/menu.png</normaloff>icon/menu.png</iconset>
+   </property>
+   <property name="text">
+    <string>гланое меню</string>
+   </property>
+  </action>
+  <action name="nazad">
+   <property name="icon">
+    <iconset>
+     <normaloff>icon/28.png</normaloff>icon/28.png</iconset>
+   </property>
+   <property name="text">
+    <string>преведущее окно</string>
+   </property>
+   <property name="toolTip">
+    <string>предыдущее окно</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

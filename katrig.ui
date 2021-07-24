@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>katrig</class>
+ <widget class="QMainWindow" name="katrig">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1141</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Замена катриджа</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;замена картриджа&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:11pt; color:#000000;&quot;&gt; в &lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;лазерном принтере&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:11pt; color:#000000;&quot;&gt;1. Откройте переднюю крышку печатающего устройства.&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:11pt; color:#333333;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:11pt; color:#000000;&quot;&gt;2. Извлеките старый использованный картридж. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:11pt; color:#000000;&quot;&gt;Тяните его плавно, не прикладывая рывков или больших усилий, иначе картридж может застрять в принтере. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item alignment="Qt::AlignLeft|Qt::AlignTop">
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Установите новый катридж&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#000000;&quot;&gt;1. Извлеките новый картридж из упаковки.&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#333333;&quot;&gt;Будьте осторожны, опасайтесь просыпания тонера. Если рассыпался — удалите его сухой тряпкой или холодной&lt;br/&gt;водой.Избегайте попадания тонерного порошка на одежду, ворс или ткань.&lt;br/&gt;2&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#000000;&quot;&gt;. Несильно встряхните картридж несколько раз &lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#333333;&quot;&gt;для более равномерного распределения тонера в картридже. Лучше делать это, держа картридж, двумя руками&lt;br/&gt;в горизонтальной плоскости, а не вверх-вниз.&lt;br/&gt;3. Снимите с картриджа защитную ленту и крышку. &lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#000000;&quot;&gt;Не допускайте разрывов ленты. Установите тонер–картридж в принтер на направляющие .&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#333333;&quot;&gt;&lt;br/&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#000000;&quot;&gt;. Картридж должен легко стать на направляющие, двигаться по ним и зафиксироваться в конечном положении без прикладывания усилий. Обратите внимание&lt;br/&gt;– картридж каждого цвета имеет индивидуальную маркировку во избежание неправильной установки. Сравните наклейку на картридже с наклейкой&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#333333;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#000000;&quot;&gt;в принтере перед установкой.&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#333333;&quot;&gt;&lt;br/&gt;3&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#000000;&quot;&gt;. Закройте крышку принтера.&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#333333;&quot;&gt;&lt;br/&gt;4&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10.5pt; color:#000000;&quot;&gt;. Распечатайте тестовую страницу. У оригинального или качественно заправленного картриджа  не должно возникать дефектов при печати.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignLeft">
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>ок</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1141</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
