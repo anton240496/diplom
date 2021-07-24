@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mqualitu</class>
+ <widget class="QMainWindow" name="mqualitu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1017</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Некачественное изображение при дефекте лазерной печати</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="label_2">
+          <property name="midLineWidth">
+           <number>2</number>
+          </property>
+          <property name="text">
+           <string>1. найдите вашу проблему, посмотрите есть ли изображение, нажав на на строку, 
+перейдите к пункту - другие возможные неисправности</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableView" name="qualitypictures">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="midLineWidth">
+           <number>1</number>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::AdjustToContents</enum>
+          </property>
+          <property name="autoScrollMargin">
+           <number>16</number>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectItems</enum>
+          </property>
+          <property name="verticalScrollMode">
+           <enum>QAbstractItemView::ScrollPerItem</enum>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>290</number>
+          </attribute>
+          <attribute name="horizontalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderStretchLastSection">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderCascadingSectionResizes">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>60</number>
+          </attribute>
+          <attribute name="verticalHeaderHighlightSections">
+           <bool>false</bool>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item alignment="Qt::AlignTop">
+          <widget class="QGroupBox" name="verticalGroupBox">
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>образец изображения</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lpic_2">
+              <property name="text">
+               <string>здесь будет ваше
+ изображение, если оно
+ есть в таблице слева</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+          <widget class="QLabel" name="label_5">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>2. Другие возможные
+ неисправности</string>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="densityimage">
+           <property name="text">
+            <string>1.Малая плотность
+ изображения</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/mp.jpg</normaloff>pic/qual/mp.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="mytop">
+           <property name="text">
+            <string>2.мятый опечаток</string>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="edgeimage">
+           <property name="text">
+            <string>3.остаточное
+ изображение</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/o.jpg</normaloff>pic/qual/o.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="fon">
+           <property name="text">
+            <string>4.фон</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/fon.jpg</normaloff>pic/qual/fon.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="empty">
+           <property name="text">
+            <string>5.пропуск изображения</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/pim.jpg</normaloff>pic/qual/pim.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="skew">
+           <property name="text">
+            <string>6.перекос, неправильная
+ регистрация</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/per.jpg</normaloff>pic/qual/per.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="stripdir">
+           <property name="text">
+            <string>7.Полосы, линии и
+мазки в направлении
+подачи бумаги</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/pollin.jpg</normaloff>pic/qual/pollin.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="notpinnecopi">
+           <property name="text">
+            <string>8.незакрепленная
+копия</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/nk.jpg</normaloff>pic/qual/nk.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="gorizontline">
+           <property name="text">
+            <string>9.Повторяющиеся
+полосы</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/pollin.jpg</normaloff>pic/qual/pollin.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="ribe">
+           <property name="text">
+            <string>10.рябь</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/rab.jpg</normaloff>pic/qual/rab.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="pytna">
+           <property name="text">
+            <string>11.пятна</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/пятна.jpg</normaloff>pic/qual/пятна.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="prints">
+           <property name="text">
+            <string>12.Полностью черные
+ отпечатки</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/cherop.jpg</normaloff>pic/qual/cherop.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignTop">
+          <widget class="QPushButton" name="emptyimage">
+           <property name="text">
+            <string>13.пустой лист</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>pic/qual/empty.jpg</normaloff>pic/qual/empty.jpg</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1017</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="main"/>
+  </widget>
+  <action name="main">
+   <property name="icon">
+    <iconset>
+     <normaloff>icon/menu.png</normaloff>icon/menu.png</iconset>
+   </property>
+   <property name="text">
+    <string>главное окно</string>
+   </property>
+   <property name="toolTip">
+    <string>главное меню</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

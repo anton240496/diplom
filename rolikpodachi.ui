@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rolikpodachi</class>
+ <widget class="QMainWindow" name="rolikpodachi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1325</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ролик подачи бумаги</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item alignment="Qt::AlignTop">
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+            <kerning>true</kerning>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;На примере принтера марки Xerox Phaser 8870. Вид ролика справа.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;1.Нужно взять мягкую не ворсистую тряпку и упаковочную ленту.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:11.5pt; color:#000000;&quot;&gt;2.Тряпка не должна иметь ворса, так как ворсинки могут приклеиться к поверхности роликов и усугубить дефекты печати.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman','serif'; font-size:12pt;&quot;&gt;3. Рассмотрим процедуру очистки роликов подачи и вывода бумаги на примере твердотельного принтера Xerox Phaser 8870.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:11.5pt; color:#000000;&quot;&gt;4.Сначала очистим ролики вывода бумаги. Для этого откроем дверцу вывода на верхней панели устройства и очистим серые ролики мягкой неворсистой тряпкой. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:11.5pt; color:#000000;&quot;&gt;Убедившись, что ролики вывода полностью очищены, закроем верхнюю крышку.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;5.Теперь приступаем к очистке роликов захвата бумаги. Для этого открываем крышку принтера, расположенную на передней панели. &lt;/p&gt;&lt;p&gt;Берём в руки мягкую не ворсистую тряпку и аккуратно протираем серый ролик захвата бумаги.&lt;/p&gt;&lt;p&gt;Убедившись, что ролик очищен от остатков чернил, закрываем крышку принтера.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:11.5pt; color:#000000;&quot;&gt;6.если есть еще одни лоток в принтере, откройте крышку и почистите ролик, также ролик можно прочисть упаковочной лентой.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Снимите ролик и положите на ленту, на столе клейкой стороной вверх и двигаем узел ролика вдоль ленты.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::MarkdownText</enum>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+          <property name="wordWrap">
+           <bool>false</bool>
+          </property>
+          <property name="margin">
+           <number>1</number>
+          </property>
+          <property name="indent">
+           <number>7</number>
+          </property>
+          <property name="openExternalLinks">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>ок</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../build-diplom-Desktop_Qt_5_15_0_MinGW_64_bit-Release1/rol.jpg</pixmap>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1325</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
